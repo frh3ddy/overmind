@@ -18,7 +18,7 @@ The story is a bit different if the state value is an object or an array. These 
 
 ### Arrays
 
-When we just access en array in a component it will rerender if the array itself is replaced, removed or we do a mutation to it. That would mean we push a new item to it, we splice it or sort it.
+When we just access an array in a component it will rerender if the array itself is replaced, removed or we do a mutation to it. That would mean we push a new item to it, we splice it or sort it.
 
 ```marksy
 h(Example, { name: "guide/connectingcomponents/array_1" })
